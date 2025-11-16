@@ -17,7 +17,9 @@ def pownum(a, n) -> float:
         return a * pownum(a, n - 1)
 
 def main():
-    """Main function to get input from keyboard"""
+    """
+    Main function to get input from keyboard
+    """
     a = float(input("Введите число a: "))
     n = int(input("Введите степень n: "))
     
