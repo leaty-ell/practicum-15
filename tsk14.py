@@ -13,6 +13,9 @@ def numbers(x: int):
 
 
 def main():
+    """
+    Main function to get input from keyboard
+    """
     x = int(input("Введите натуральное число: "))
     
     print("Цифры в обратном порядке:")
