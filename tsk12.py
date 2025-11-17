@@ -18,6 +18,9 @@ def search(a, x) -> int:
 
 
 def main():
+    """
+    Main function to get input from keyboard
+    """
     numbers = list(map(int, input("Введите числа через пробел: ").split()))
     x = int(input("Введите число для поиска: "))
     
