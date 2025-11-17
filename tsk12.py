@@ -1,4 +1,4 @@
-def search(a: list, x: int) -> int:
+def search(a, x) -> int:
     """
     Recursive function to search for number x in list a.
     
