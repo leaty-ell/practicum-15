@@ -20,6 +20,9 @@ def ind_maxlist(a: list, index: int = 0) -> int:
 
 
 def main():
+    """
+    Main function to get input from keyboard
+    """
     numbers = list(map(int, input("Введите числа через пробел: ").split()))
     result = ind_maxlist(numbers)
     print(f"Индекс максимального элемента: {result}"
