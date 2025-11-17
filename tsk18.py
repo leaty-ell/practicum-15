@@ -1,4 +1,4 @@
-def simmetr(s: str, i: int, j: int) -> bool:
+def simmetr(s, i, j) -> bool:
     """
     Recursive function to check if substring s[i:j+1] is symmetric (palindrome).
     
