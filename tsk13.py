@@ -23,6 +23,9 @@ def odd_list(a, n) -> list:
 
 
 def main():
+    """
+    Main function to get input from keyboard
+    """
     numbers = list(map(int, input("Введите числа через пробел: ").split()))
     
     result = odd_list(numbers)
