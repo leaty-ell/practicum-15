@@ -20,6 +20,9 @@ def simmetr(s: str, i: int, j: int) -> bool:
 
 
 def main():
+    """
+    Main function to get input from keyboard
+    """
     s = input("Введите строку: ")
     i = int(input("Введите начальный индекс: "))
     j = int(input("Введите конечный индекс: "))
